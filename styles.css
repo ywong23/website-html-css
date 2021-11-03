@@ -1,0 +1,58 @@
+h1 {
+    color: rgb(166, 255, 0);
+    background-color: rgb(60, 175, 75);
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ p {
+    font-size: large;
+    text-align: left;
+    line-height: 22px;
+ 
+ }
+ ul {
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(43, 220, 20);
+ }
+strong {
+    font-size: small;
+    text-align: left;
+    line-height: 2px;
+ 
+}
+
+span {
+    border: 55px solid rgb(150, 220, 20);
+    margin: 20px;
+    padding: 20px;
+ }
+ div {
+    border: 2px solid rgb(190, 220, 20);
+    margin: 20px;
+    padding: 20px;
+ }
+
+ a[href = "wikipedia.org"] {
+    background-color: #3d5bd1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ a[href*= "dalton"] {
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ aside li a {
+    text-decoration: none;
+ }
+ aside li a:hover{
+    text-decoration: underline;
+ }
